@@ -46,7 +46,7 @@ Data Visualization:
 
 Data Saving:
 
-7.Saves the interpolated data to a file named nk_<material>.dat using save_data.
+7. Saves the interpolated data to a file named nk_<material>.dat using save_data.
 
 ### Notes:
 
