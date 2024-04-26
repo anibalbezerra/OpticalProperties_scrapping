@@ -17,7 +17,7 @@ cd OpticalProperties_scrapping
 pip install requests beautifulsoup4 numpy matplotlib selenium webdriver_manager
 ```
 
-### Usage:
+## Usage:
 
 Modify the URL:
 Replace the placeholder URL 'https://refractiveindex.info/?shelf=main&book=Ta2O5&page=Bright-amorphous' in the url variable with the actual URL of the webpage containing the desired optical data.
