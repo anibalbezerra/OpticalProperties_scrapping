@@ -8,13 +8,13 @@ This Python script scrapes data for refractive index (n) and extinction coeffici
 
 Clone the repository:
 ```Bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/anibalbezerra/OpticalProperties_scrapping.git
 ```
 
 Install dependencies:
 ```Bash
-cd <repository-name>
-pip install requests beautifulsoup4 numpy matplotlib
+cd OpticalProperties_scrapping
+pip install requests beautifulsoup4 numpy matplotlib selenium webdriver_manager
 ```
 
 ### Usage:
@@ -31,14 +31,14 @@ python scrape_and_process.py
 
 Data Scraping:
 
-1. Fetches data from the specified URL using getMaterial and getResponse functions (assumed to be defined elsewhere).
+1. Fetches data from the specified URL using getMaterial and getResponse functions.
 2. Processes the response using processing to extract relevant values.
-3. Splits the extracted strings into numerical data using splitting (assuming it handles potential parsing errors).
+3. Splits the extracted strings into numerical data using splitting (it handles potential parsing errors).
 
 Data Processing:
 
 4. Plots the full acquired data using plotting for initial inspection (sanity check).
-5. Cuts and interpolates the data within a specific wavelength range (range_i to range_f) with a desired resolution (delta) using the cut_and_interpolate function (assumed to be defined elsewhere).
+5. Cuts and interpolates the data within a specific wavelength range (range_i to range_f) with a desired resolution (delta) using the cut_and_interpolate function.
 
 Data Visualization:
 
@@ -50,8 +50,7 @@ Data Saving:
 
 ### Notes:
 
-1. This script assumes the existence and functionality of the following functions: getMaterial, getResponse, cut_and_interpolate.
-2. The script requires external libraries requests, beautifulsoup4, numpy, and matplotlib. Install them using pip.
-3. Consider error handling and data validation for robustness.
+1. The script requires external libraries requests, beautifulsoup4, numpy, and matplotlib. Install them using pip.
+
    
 
