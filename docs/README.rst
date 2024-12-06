@@ -36,7 +36,7 @@ Run the script:
 
 .. code:: bash
 
-   python scrape_and_process.py
+   python scrape_and_process
 
 Functionality:
 ~~~~~~~~~~~~~~
