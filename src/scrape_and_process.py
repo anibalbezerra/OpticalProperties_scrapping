@@ -1,5 +1,5 @@
-!pip install selenium
-!pip install webdriver_manager
+#!pip install selenium
+#!pip install webdriver_manager
 
 import requests
 from bs4 import BeautifulSoup
