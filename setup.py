@@ -5,11 +5,11 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        'scipy',
-        'numpy',
-        'bs4',
         'requests',
         'matplotlib',
+        'bs4',
+        'scipy',
+        'numpy',
     ],
     entry_points={
         'console_scripts': [

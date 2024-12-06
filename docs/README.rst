@@ -8,6 +8,13 @@ coefficient (k) from a webpage and saves it to a file. It performs
 processing, filtering, interpolation, and plotting to obtain the desired
 data range.
 
+Read the Docs:
+==============
+
+The documentation can be found at:
+
+https://opticalproperties-scrapping.readthedocs.io/en/latest/index.html
+
 Installation:
 -------------
 
