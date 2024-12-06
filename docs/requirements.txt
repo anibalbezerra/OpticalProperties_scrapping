@@ -1,7 +1,7 @@
 sphinx
 sphinx-pdj-theme
-bs4
-scipy
-requests
 matplotlib
 numpy
+requests
+bs4
+scipy
